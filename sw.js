@@ -1,4 +1,4 @@
-var cacheName = 'insights-pwa_v1';
+var cacheName = 'insights-pwa_v2';
 var filesToCache = [
   '/',
   '/index.html',
@@ -17,16 +17,16 @@ self.addEventListener('install', function(e) {
 });
 
 /* Serve cached content when offline */
-self.addEventListener('fetch', function(e) {
-  console.log('[Service Worker] Fetched resource ');
-  // e.respondWith(
-  //   caches.match(e.request).then(function(response) {
-  //     return response || fetch(e.request);
-  //   })
-  // );
-});
+// self.addEventListener('fetch', function(e) {
+//   console.log('[Service Worker] Fetched resource ');
+//   // e.respondWith(
+//   //   caches.match(e.request).then(function(response) {
+//   //     return response || fetch(e.request);
+//   //   })
+//   // );
+// });
 
 self.addEventListener('activate', function(event) {
-  console.log('[ServiceWorke] Activate')
+  console.log('[ServiceWorke] Activate');
   // Perform some task
 });
