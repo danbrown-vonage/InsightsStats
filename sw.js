@@ -25,3 +25,8 @@ self.addEventListener('fetch', function(e) {
   //   })
   // );
 });
+
+self.addEventListener('activate', function(event) {
+  console.log('[ServiceWorke] Activate')
+  // Perform some task
+});
