@@ -1,7 +1,7 @@
 var cacheName = 'Insights-pwa';
 var filesToCache = [
   '/',
-  'realtime.html',
+  'index.html',
   'realtime.js'
 ];
 
