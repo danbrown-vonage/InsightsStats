@@ -1,13 +1,5 @@
 var debug = false; var debug2 = false;
 // TODO: UI REACT?
-window.onload = () => {
-    'use strict';
-  
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
-               .register('./sw.js');
-    }
-  }
 
   
 $(document).ready(function() {

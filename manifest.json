@@ -5,6 +5,11 @@
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "white",
-    "theme_color": "white"
+    "theme_color": "white",
+    "icons": [{
+        "src": "VonageLogo_Symbol_Black144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }]
   }
   
