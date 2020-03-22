@@ -10,6 +10,11 @@
         "src": "VonageLogo_Symbol_Black144.png",
         "sizes": "144x144",
         "type": "image/png"
+      },
+      {
+        "src": "VonageLogo_Symbol_Black192.png",
+        "sizes": "192x192",
+        "type": "image/png"
       }]
   }
   
