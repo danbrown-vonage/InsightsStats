@@ -1,8 +1,8 @@
-var cacheName = 'Insights-pwa';
+var cacheName = 'insights-pwa';
 var filesToCache = [
   '/',
-  'index.html',
-  'realtime.js'
+  '/index.html',
+  '/realtime.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
